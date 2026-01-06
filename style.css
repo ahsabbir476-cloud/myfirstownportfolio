@@ -10,4 +10,45 @@
 
 header{
     background-color: #FFF8F3;
+    padding-top: 50px;
+}
+
+nav{
+  width: 67%;
+  max width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .menu{
+  display: flex;
+  list-style-type: none;
+  gap: 51px;
+  align-items: center;
+}
+
+nav .menu a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #676767;
+}
+
+nav .logo h2{
+  font-size: 45px;
+  font-weight: 900px;
+}
+
+.color-orange{
+  color: #fd6e0a
+}
+
+.btn{
+  background-color: #fd6e0a;
+  border: none;
+  padding: 18px 35px;
+  border-radius:5px ;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
 }
